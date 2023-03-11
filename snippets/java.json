@@ -1,0 +1,9 @@
+{
+    "Divider": {
+        "prefix": "div",
+        "body": [
+          "System.out.println(\"--------------------------------------------------\");"
+        ],
+        "description": "Divider"
+      }
+}

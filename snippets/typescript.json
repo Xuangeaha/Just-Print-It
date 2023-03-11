@@ -1,0 +1,9 @@
+{
+    "Divider": {
+        "prefix": "div",
+        "body": [
+          "Console.log(\"--------------------------------------------------\");"
+        ],
+        "description": "Divider"
+      }
+}

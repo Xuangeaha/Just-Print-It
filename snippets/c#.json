@@ -1,0 +1,9 @@
+{
+    "Divider": {
+        "prefix": "div",
+        "body": [
+          "Console.writeline(\"--------------------------------------------------\");"
+        ],
+        "description": "Divider"
+      }
+}

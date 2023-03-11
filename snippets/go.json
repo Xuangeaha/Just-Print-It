@@ -1,0 +1,9 @@
+{
+    "Divider": {
+        "prefix": "div",
+        "body": [
+          "fmt.Println(\"--------------------------------------------------\")"
+        ],
+        "description": "Divider"
+      }
+}
