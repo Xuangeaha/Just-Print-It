@@ -1,20 +1,20 @@
 {
-  "name": "print-divider",
+  "name": "just-print-it",
   "publisher": "XuangeAha",
-  "displayName": "Print Divider",
-  "description": "Print a divider easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Kotlin, Objective-C, Lua or Julia files.",
-  "version": "0.3.2",
+  "displayName": "Just Print It",
+  "description": "Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua or Julia files.",
+  "version": "0.0.1",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
     "name": "XuangeAha"
   },
-  "homepage": "https://github.com/Xuangeaha/Print-Divider",
+  "homepage": "https://github.com/Xuangeaha/Just-Print-It",
   "repository": {
-    "url": "https://github.com/Xuangeaha/Print-Divider"
+    "url": "https://github.com/Xuangeaha/Just-Print-It"
   },
   "bugs": {
-    "url": "https://github.com/Xuangeaha/Print-Divider/issues"
+    "url": "https://github.com/Xuangeaha/Just-Print-It/issues"
   },
   "engines": {
     "vscode": "^1.75.0"

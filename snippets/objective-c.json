@@ -1,9 +1,9 @@
 {
     "Divider": {
-        "prefix": "div",
+        "prefix": "print",
         "body": [
-          "NSLog(@\"--------------------------------------------------\");"
+          "NSLog(@\"${1}\");"
         ],
-        "description": "Divider"
+        "description": "Just Print It"
       }
 }

@@ -1,8 +1,8 @@
-# Print Divider
+# Just Print It
 
-[![Version](https://vsmarketplacebadges.dev/version/xuangeaha.print-divider.svg?&colorB=orange)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![Installs](https://vsmarketplacebadges.dev/installs/xuangeaha.print-divider.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![Downloads](https://vsmarketplacebadges.dev/downloads/xuangeaha.print-divider.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![Rating Short](https://vsmarketplacebadges.dev/rating-short/xuangeaha.print-divider.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![Rating Star](https://vsmarketplacebadges.dev/rating-star/xuangeaha.print-divider.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider)
+[![Version](https://vsmarketplacebadges.dev/version/xuangeaha.just-print-it.svg?&colorB=orange)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![Installs](https://vsmarketplacebadges.dev/installs/xuangeaha.just-print-it.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![Downloads](https://vsmarketplacebadges.dev/downloads/xuangeaha.just-print-it.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![Rating Short](https://vsmarketplacebadges.dev/rating-short/xuangeaha.just-print-it.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![Rating Star](https://vsmarketplacebadges.dev/rating-star/xuangeaha.just-print-it.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it)
 
-[![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.print-divider.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.print-divider.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.print-divider.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.print-divider)
+[![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it)
 
 Print a divider easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua or Julia files.
 
@@ -10,22 +10,22 @@ Print a divider easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript,
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
-**Repository/仓库**: [`https://github.com/Xuangeaha/print-divider`](https://github.com/Xuangeaha/print-divider)
+**Repository/仓库**: [`https://github.com/Xuangeaha/just-print-it`](https://github.com/Xuangeaha/just-print-it)
 
-**Issues/问题**: [`https://github.com/Xuangeaha/print-divider/issues`](https://github.com/Xuangeaha/print-divider/issues)
+**Issues/问题**: [`https://github.com/Xuangeaha/just-print-it/issues`](https://github.com/Xuangeaha/just-print-it/issues)
 
-**Changelog/更新日志**: [`https://marketplace.visualstudio.com/items/XuangeAha.print-divider/changelog`](https://marketplace.visualstudio.com/items/XuangeAha.print-divider/changelog)
+**Changelog/更新日志**: [`https://marketplace.visualstudio.com/items/XuangeAha.just-print-it/changelog`](https://marketplace.visualstudio.com/items/XuangeAha.just-print-it/changelog)
 
-**License/许可证**: [`https://marketplace.visualstudio.com/items/XuangeAha.print-divider/license`](https://marketplace.visualstudio.com/items/XuangeAha.print-divider/license)
+**License/许可证**: [`https://marketplace.visualstudio.com/items/XuangeAha.just-print-it/license`](https://marketplace.visualstudio.com/items/XuangeAha.just-print-it/license)
 
-**Download/下载**: [`https://marketplace.visualstudio.com/items?itemName=XuangeAha.print-divider`](https://marketplace.visualstudio.com/items?itemName=XuangeAha.print-divider)
+**Download/下载**: [`https://marketplace.visualstudio.com/items?itemName=XuangeAha.just-print-it`](https://marketplace.visualstudio.com/items?itemName=XuangeAha.just-print-it)
 
 **Copyright (c) 2023 XuangeAha/轩哥啊哈OvO**
 
 # How To Use 使用方法
 
-1. Type `div` in the file of supported languages above.  在所支持语言文件中键入 `div`。
-2. Select `div (Divider)` and press `Tab`.  选择 `div (Divider)` 后按下 `Tab`。
+1. Type `print` in the file of supported languages above.  在所支持语言文件中键入 `print`。
+2. Select `print (Just Print It)` and press `Tab`.  选择 `print (Just Print It)` 后按下 `Tab`。
 3. Divider will automatically be added to the file.  分隔符将自动加入文件中。
 
 # Language Supports 语言支持
@@ -35,91 +35,91 @@ Print a divider easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript,
 ## Python
 
 ```python
-print("--------------------------------------------------")
+print("{}")
 ```
 
 ## Java
 
 ```java
-System.out.println("--------------------------------------------------");
+System.out.println("{}");
 ```
 
 ## C
 
 ```c
-printf("--------------------------------------------------");
+printf("{}");
 ```
 
 ## PHP
 
 ```php
-echo "--------------------------------------------------";
+echo "{}";
 ```
 
 ## C#
 
 ```csharp
-Console.writeline("--------------------------------------------------");
+Console.writeline("{}");
 ```
 
 ## JavaScript
 
 ```javascript
-Console.log("--------------------------------------------------");
+Console.log("{}");
 ```
 
 ## TypeScript
 
 ```typescript
-Console.log("--------------------------------------------------");
+Console.log("{}");
 ```
 
 ## R
 
 ```python
-print ( "--------------------------------------------------" )
+print ( "{}" )
 ```
 
 ## Go
 
 ```go
-fmt.Println("--------------------------------------------------")
+fmt.Println("{}")
 ```
 
 ## Rust
 
 ```rust
-println!("--------------------------------------------------");
+println!("{}");
 ```
 
 ## Swift
 
 ```swift
-print("--------------------------------------------------")
+print("{}")
 ```
 
 ## Ruby
 
 ```ruby
-puts "--------------------------------------------------"
+puts "{}"
 ```
 
 ## Objective-C
 
 ```objectivec
-NSLog(@"--------------------------------------------------");
+NSLog(@"{}");
 ```
 
 ## Lua
 
 ```lua
-print("--------------------------------------------------")
+print("{}")
 ```
 
 ## Julia
 
 ```julia
-print("--------------------------------------------------")
+print("{}")
 ```
 
 **Enjoy!**

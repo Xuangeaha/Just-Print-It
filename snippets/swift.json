@@ -1,9 +1,9 @@
 {
     "Divider": {
-        "prefix": "div",
+        "prefix": "print",
         "body": [
-          "print(\"--------------------------------------------------\")"
+          "print(\"${1}\")"
         ],
-        "description": "Divider"
+        "description": "Just Print It"
       }
 }
