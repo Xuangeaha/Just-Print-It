@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "Just Print It",
   "description": "Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua or Julia files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
