@@ -2,8 +2,8 @@
   "name": "just-print-it",
   "publisher": "XuangeAha",
   "displayName": "Just Print It",
-  "description": "Print a divider easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Scala, Groovy, Visual Basic or Ada files.",
-  "version": "0.1.0",
+  "description": "Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Scala, Groovy, Visual Basic or Ada files.",
+  "version": "0.1.1",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
