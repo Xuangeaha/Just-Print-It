@@ -4,6 +4,24 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.2.0 2023-03-24
+
+Remove language supports for `Scala `and `Ada`.
+
+Repair bugs (`JPI-2`, `JPI-3`):
+
+```plaintext
+Unknown language in `contributes.print-divider.language`. Provided value: Scala
+
+"contributes.print-divider.language" 中包含未知语言。提供的值: Scala
+```
+
+```plaintext
+Unknown language in `contributes.print-divider.language`. Provided value: Ada
+
+"contributes.print-divider.language" 中包含未知语言。提供的值: Ada
+```
+
 ## 0.1.1 2023-03-19
 
 Correct some mistakes in `README.md`.
@@ -14,7 +32,7 @@ Add language supports for `Dart`, `Scala`, `Groovy`, `Visual Basic` and `Ada`.
 
 ## 0.0.2 2023-03-11
 
-Repair `C#` snippets:
+Repair `C#` snippets (`JPI-1`):
 
 ```csharp
 Console.writeline("") -> Console.WriteLine("")

@@ -4,9 +4,9 @@
 
 [![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it)
 
-Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Scala, Groovy, Visual Basic or Ada files.
+Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy or Visual Basic files.
 
-在你的Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Scala, Groovy, Visual Basic或Ada文件中轻松地输出一个语句。
+在你的Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy或Visual Basic文件中轻松地输出一个语句。
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
@@ -30,7 +30,7 @@ Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript
 
 # Language Supports 语言支持
 
-**Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Scala, Groovy, Visual Basic, Ada**
+**Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy, Visual Basic**
 
 ## Python
 
@@ -128,12 +128,6 @@ print("{}")
 print('{}');
 ```
 
-## Scala
-
-```scala
-println("{}")
-```
-
 ## Groovy
 
 ```groovy
@@ -144,12 +138,6 @@ println('{}');
 
 ```vb
 Console.WriteLine("{}")
-```
-
-## Ada
-
-```ada
-Ada.Text_IO.Put_Line ("{}");
 ```
 
 **Enjoy!**
