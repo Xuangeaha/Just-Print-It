@@ -2,8 +2,8 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-          "NSLog(@\"${1}\");"
+            "NSLog(@\"${1}\");"
         ],
         "description": "Just Print It"
-      }
+    }
 }

@@ -2,8 +2,8 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-            "Console.WriteLine(\"${1}\");"
+          "printfn \"${1}\""
         ],
         "description": "Just Print It"
-    }
+      }
 }

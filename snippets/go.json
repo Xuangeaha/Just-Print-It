@@ -2,8 +2,8 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-          "fmt.Println(\"${1}\")"
+            "fmt.Println(\"${1}\")"
         ],
         "description": "Just Print It"
-      }
+    }
 }

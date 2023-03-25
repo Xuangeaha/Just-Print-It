@@ -4,9 +4,13 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.0 2023-03-25
+
+Add language supports for `CoffeeScript`, `VBScript`, `F#`, `Batch`, `Powershell`, `Perl` and `Clojure`.
+
 ## 0.2.0 2023-03-24
 
-Remove language supports for `Scala `and `Ada`.
+Remove language supports for `Scala` and `Ada`.
 
 Repair bugs (`JPI-2`, `JPI-3`):
 

@@ -2,7 +2,7 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-            "Console.WriteLine(\"${1}\");"
+            "echo ${1}"
         ],
         "description": "Just Print It"
     }

@@ -1,9 +1,9 @@
 {
-    "Just Print It": {
-        "prefix": "print",
-        "body": [
-          "println(\"${1}\")"
-        ],
-        "description": "Just Print It"
-      }
+  "Just Print It": {
+    "prefix": "print",
+    "body": [
+      "println(\"${1}\")"
+    ],
+    "description": "Just Print It"
+  }
 }

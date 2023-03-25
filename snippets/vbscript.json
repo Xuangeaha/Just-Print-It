@@ -2,7 +2,7 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-            "Console.WriteLine(\"${1}\");"
+            "Msgbox(\"${1}\",${2},\"${3}\")"
         ],
         "description": "Just Print It"
     }

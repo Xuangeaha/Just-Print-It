@@ -2,8 +2,8 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-          "printf(\"${1}\");"
+            "printf(\"${1}\");"
         ],
         "description": "Just Print It"
-      }
+    }
 }
