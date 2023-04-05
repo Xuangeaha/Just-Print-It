@@ -4,6 +4,6 @@
         "body": [
             "Msgbox(\"${1}\",${2},\"${3}\")"
         ],
-        "description": "Just Print It"
+        "description": "Print a sentence."
     }
 }

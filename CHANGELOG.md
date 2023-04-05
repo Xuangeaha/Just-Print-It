@@ -4,6 +4,10 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.1 2023-04-05
+
+Add `description` for snippets.
+
 ## 0.3.0 2023-03-25
 
 Add language supports for `CoffeeScript`, `VBScript`, `F#`, `Batch`, `Powershell`, `Perl` and `Clojure`.

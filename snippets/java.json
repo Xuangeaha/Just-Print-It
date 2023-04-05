@@ -4,6 +4,6 @@
         "body": [
             "System.out.println(\"${1}\");"
         ],
-        "description": "Just Print It"
+        "description": "Print a sentence."
     }
 }

@@ -4,6 +4,6 @@
         "body": [
             "fmt.Println(\"${1}\")"
         ],
-        "description": "Just Print It"
+        "description": "Print a sentence."
     }
 }

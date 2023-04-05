@@ -4,6 +4,6 @@
         "body": [
             "printf(\"${1}\");"
         ],
-        "description": "Just Print It"
+        "description": "Print a sentence."
     }
 }
