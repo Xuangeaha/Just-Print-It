@@ -4,6 +4,12 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.3.2-exp 2023-04-15
+
+Add `title `and `context `button to **print it**, but it hasn't been finished yet.
+
+ *(Message: The function is still developing. You may type "print" in the editor and use the snippet temporarily.)*
+
 ## 0.3.1 2023-04-05
 
 Add `description` for snippets.
