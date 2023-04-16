@@ -10,22 +10,66 @@ function activate(context) {
             return;
         }
 
-        // // 获取代码片段
-        // var snippet;
-        // const languageId = vscode.window.activeTextEditor.document.languageId
+        // 获取代码片段
+        var snippet;
+        const languageId = vscode.window.activeTextEditor.document.languageId
 
-        // if (languageId == 'batch') {
-        //     snippet = new vscode.SnippetString("")
-        // } else if (languageId == 'c') {
-        //     snippet = new vscode.SnippetString("printf(\"${1}\");")
-        // } else {
-        //     snippet = new vscode.SnippetString("print(\"${1}\");")
-        // }
+        if (languageId == 'batch') {
+            snippet = new vscode.SnippetString("echo ${1}")
+        } else if (languageId == 'c') {
+            snippet = new vscode.SnippetString("printf(\"${1}\");")
+        } else if (languageId == 'csharp') {
+            snippet = new vscode.SnippetString("Console.WriteLine(\"${1}\");")
+        } else if (languageId == 'clojure') {
+            snippet = new vscode.SnippetString("(println \"${1}\"))")
+        } else if (languageId == 'coffeescript') {
+            snippet = new vscode.SnippetString("console.log \"${1}\"")
+        } else if (languageId == 'dart') {
+            snippet = new vscode.SnippetString("print('${1}');")
+        } else if (languageId == 'fsharp') {
+            snippet = new vscode.SnippetString("printfn \"${1}\"")
+        } else if (languageId == 'go') {
+            snippet = new vscode.SnippetString("fmt.Println(\"${1}\")")
+        } else if (languageId == 'groovy') {
+            snippet = new vscode.SnippetString("println('${1}');")
+        } else if (languageId == 'java') {
+            snippet = new vscode.SnippetString("System.out.println(\"${1}\");")
+        } else if (languageId == 'javascript') {
+            snippet = new vscode.SnippetString("Console.log(\"${1}\");")
+        } else if (languageId == 'julia') {
+            snippet = new vscode.SnippetString("println(\"${1}\")")
+        } else if (languageId == 'lua') {
+            snippet = new vscode.SnippetString("print(\"${1}\")")
+        } else if (languageId == 'objective-c') {
+            snippet = new vscode.SnippetString("NSLog(@\"${1}\");")
+        } else if (languageId == 'perl') {
+            snippet = new vscode.SnippetString("print \"${1}\"")
+        } else if (languageId == 'php') {
+            snippet = new vscode.SnippetString("echo \"${1}\";")
+        } else if (languageId == 'powershell') {
+            snippet = new vscode.SnippetString("Write-Output \"${1}\"")
+        } else if (languageId == 'python') {
+            snippet = new vscode.SnippetString("print(\"${1}\")")
+        } else if (languageId == 'r') {
+            snippet = new vscode.SnippetString("print ( \"${1}\" )")
+        } else if (languageId == 'ruby') {
+            snippet = new vscode.SnippetString("puts \"${1}\"")
+        } else if (languageId == 'rust') {
+            snippet = new vscode.SnippetString("println!(\"${1}\");")
+        } else if (languageId == 'swift') {
+            snippet = new vscode.SnippetString("print(\"${1}\")")
+        } else if (languageId == 'typescript') {
+            snippet = new vscode.SnippetString("Console.log(\"${1}\");")
+        } else if (languageId == 'vbscript') {
+            snippet = new vscode.SnippetString("Msgbox(\"${1}\",${2},\"${3}\")")
+        } else if (languageId == 'vb') {
+            snippet = new vscode.SnippetString("Console.WriteLine(\"${1}\")")
+        } else {
+            vscode.window.showErrorMessage("Unsupported language: " + languageId)
+        }
 
-        // // 插入代码片段
-        // editor.insertSnippet(snippet);
-
-        vscode.window.showInformationMessage('The function is still developing. You may type "print" in the editor and use the snippet temporarily.')
+        // 插入代码片段
+        editor.insertSnippet(snippet);
     });
 
     // 将菜单项注册到订阅数组中
