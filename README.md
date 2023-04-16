@@ -24,13 +24,23 @@ Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript
 
 # How To Use 使用方法
 
-1. Type `print` in the file of supported languages above.  在所支持语言文件中键入 `print`。
-2. Select `print (Just Print It)` and press `Tab`.  选择 `print (Just Print It)` 后按下 `Tab`。
-3. Divider will automatically be added to the file.  分隔符将自动加入文件中。
+**You can choose**:
+
+1. Click `>_` in the title menu to **add print sentense**. 点击标题栏中的 `>_` 以**插入Print语句**。
+
+**or**:
+
+1. **Right click** to show context menu. **右键**显示上下文菜单。
+2. Select `Print It` to **add print sentense**. 选择 `Print It` 以**插入Print语句**。
+
+**or**:
+
+1. Type `print` in the file of **supported languages** above.  在**所支持语言**文件中键入 `print`。
+2. Select `print (Just Print It)` and press `Tab` to **add print sentense**.  选择 `print (Just Print It)` 后按下 `Tab` 以**插入Print语句**。
 
 # Language Supports 语言支持
 
-**Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl and Clojure**
+**Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Clojure**
 
 ## Python
 

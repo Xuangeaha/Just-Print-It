@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "Just Print It",
   "description": "Print a sentence easily in your Python, Java, C, PHP, C#, JavaScript, TypeScript, R, Go, Rust, Swift, Ruby, Objective-C, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl or Clojure files.",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -294,6 +294,34 @@
       {
         "language": "vb",
         "path": "./snippets/visual-basic.json"
+      },
+      {
+        "language": "coffeescript",
+        "path": "./snippets/coffeescript.json"
+      },
+      {
+        "language": "vbscript",
+        "path": "./snippets/vbscript.json"
+      },
+      {
+        "language": "fsharp",
+        "path": "./snippets/fsharp.json"
+      },
+      {
+        "language": "batch",
+        "path": "./snippets/batch.json"
+      },
+      {
+        "language": "powershell",
+        "path": "./snippets/powershell.json"
+      },
+      {
+        "language": "perl",
+        "path": "./snippets/perl.json"
+      },
+      {
+        "language": "clojure",
+        "path": "./snippets/clojure.json"
       }
     ],
     "commands": [

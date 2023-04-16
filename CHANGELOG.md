@@ -4,9 +4,17 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.0 2023-04-16
+
+The `title` and `context` button to **print it** finished. (just-print-it.print-it)
+
+Repair bugs (`JPI-4`):
+
+> The snippets for `CoffeeScript`, `VBScript`, `F#`, `Batch`, `Powershell`, `Perl` and `Clojure` could not be inserted.
+
 ## 0.3.2-exp 2023-04-15
 
-Add `title `and `context `button to **print it**, but it hasn't been finished yet.
+Add `title` and `context` button to **print it**, but it hasn't been finished yet.
 
  *(Message: The function is still developing. You may type "print" in the editor and use the snippet temporarily.)*
 
@@ -24,17 +32,11 @@ Remove language supports for `Scala` and `Ada`.
 
 Repair bugs (`JPI-2`, `JPI-3`):
 
-```plaintext
-Unknown language in `contributes.print-divider.language`. Provided value: Scala
+> Unknown language in `contributes.print-divider.language`. Provided value: Scala
+> "contributes.print-divider.language" 中包含未知语言。提供的值: Scala
 
-"contributes.print-divider.language" 中包含未知语言。提供的值: Scala
-```
-
-```plaintext
-Unknown language in `contributes.print-divider.language`. Provided value: Ada
-
-"contributes.print-divider.language" 中包含未知语言。提供的值: Ada
-```
+> Unknown language in `contributes.print-divider.language`. Provided value: Ada
+> "contributes.print-divider.language" 中包含未知语言。提供的值: Ada
 
 ## 0.1.1 2023-03-19
 
@@ -48,9 +50,7 @@ Add language supports for `Dart`, `Scala`, `Groovy`, `Visual Basic` and `Ada`.
 
 Repair `C#` snippets (`JPI-1`):
 
-```csharp
-Console.writeline("") -> Console.WriteLine("")
-```
+> Console.writeline("") -> Console.WriteLine("")
 
 ## 0.0.1 2023-03-11
 
