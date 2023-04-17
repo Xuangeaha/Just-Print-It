@@ -14,7 +14,7 @@ function activate(context) {
         var snippet;
         const languageId = vscode.window.activeTextEditor.document.languageId
 
-        if (languageId == 'batch') {
+        if (languageId == 'bat') {
             snippet = new vscode.SnippetString("echo ${1}")
         } else if (languageId == 'c') {
             snippet = new vscode.SnippetString("printf(\"${1}\");")

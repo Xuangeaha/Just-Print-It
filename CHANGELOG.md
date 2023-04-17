@@ -4,9 +4,18 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.2 2023-04-17
+
+**Repair bugs (`JPI-7`, `JPI-8`):**
+
+> Unknown language in `contributes.print-divider.language`. Provided value: batch
+> "contributes.print-divider.language" 中包含未知语言。提供的值: batch
+
+> vscode.window.showErrorMessage: "`Unsupported language: bat`"
+
 ## 1.0.1 2023-04-17
 
-Repair bugs (`JPI-5`, `JPI-6`):
+**Repair bugs (`JPI-5`, `JPI-6`):**
 
 > Unknown language in `contributes.print-divider.language`. Provided value: vbscript
 > "contributes.print-divider.language" 中包含未知语言。提供的值: vbscript
@@ -17,7 +26,7 @@ Repair bugs (`JPI-5`, `JPI-6`):
 
 The `title` and `context` button to **print it** finished. (just-print-it.print-it)
 
-Repair bugs (`JPI-4`):
+**Repair bugs (`JPI-4`):**
 
 > The snippets for `CoffeeScript`, `VBScript`, `F#`, `Batch`, `Powershell`, `Perl` and `Clojure` could not be inserted.
 
@@ -39,7 +48,7 @@ Add language supports for `CoffeeScript`, `VBScript`, `F#`, `Batch`, `Powershell
 
 Remove language supports for `Scala` and `Ada`.
 
-Repair bugs (`JPI-2`, `JPI-3`):
+**Repair bugs (`JPI-2`, `JPI-3`):**
 
 > Unknown language in `contributes.print-divider.language`. Provided value: Scala
 > "contributes.print-divider.language" 中包含未知语言。提供的值: Scala
@@ -57,7 +66,7 @@ Add language supports for `Dart`, `Scala`, `Groovy`, `Visual Basic` and `Ada`.
 
 ## 0.0.2 2023-03-11
 
-Repair `C#` snippets (`JPI-1`):
+**Repair `C#` snippets (`JPI-1`):**
 
 > Console.writeline("") -> Console.WriteLine("")
 
