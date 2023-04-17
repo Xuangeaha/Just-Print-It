@@ -60,7 +60,7 @@ function activate(context) {
             snippet = new vscode.SnippetString("print(\"${1}\")")
         } else if (languageId == 'typescript') {
             snippet = new vscode.SnippetString("Console.log(\"${1}\");")
-        } else if (languageId == 'vbscript') {
+        } else if (languageId == 'vbs') {
             snippet = new vscode.SnippetString("Msgbox(\"${1}\",${2},\"${3}\")")
         } else if (languageId == 'vb') {
             snippet = new vscode.SnippetString("Console.WriteLine(\"${1}\")")

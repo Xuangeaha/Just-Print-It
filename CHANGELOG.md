@@ -4,6 +4,15 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.1 2023-04-17
+
+Repair bugs (`JPI-5`, `JPI-6`):
+
+> Unknown language in `contributes.print-divider.language`. Provided value: vbscript
+> "contributes.print-divider.language" 中包含未知语言。提供的值: vbscript
+
+> vscode.window.showErrorMessage: "`Unsupported language: vbs`"
+
 ## 1.0.0 2023-04-16
 
 The `title` and `context` button to **print it** finished. (just-print-it.print-it)
