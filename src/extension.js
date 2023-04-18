@@ -20,8 +20,10 @@ function activate(context) {
             snippet = new vscode.SnippetString("printf(\"${1}\");")
         } else if (languageId == 'csharp') {
             snippet = new vscode.SnippetString("Console.WriteLine(\"${1}\");")
+        } else if (languageId == 'cpp') {
+            snippet = new vscode.SnippetString("printf(\"${1}\");")
         } else if (languageId == 'clojure') {
-            snippet = new vscode.SnippetString("(println \"${1}\"))")
+            snippet = new vscode.SnippetString("(println \"${1}\")")
         } else if (languageId == 'coffeescript') {
             snippet = new vscode.SnippetString("console.log \"${1}\"")
         } else if (languageId == 'dart') {
@@ -36,14 +38,20 @@ function activate(context) {
             snippet = new vscode.SnippetString("System.out.println(\"${1}\");")
         } else if (languageId == 'javascript') {
             snippet = new vscode.SnippetString("Console.log(\"${1}\");")
+        } else if (languageId == 'javascriptreact') {
+            snippet = new vscode.SnippetString("Console.log(\"${1}\");")
         } else if (languageId == 'julia') {
             snippet = new vscode.SnippetString("println(\"${1}\")")
         } else if (languageId == 'lua') {
             snippet = new vscode.SnippetString("print(\"${1}\")")
         } else if (languageId == 'objective-c') {
             snippet = new vscode.SnippetString("NSLog(@\"${1}\");")
+        } else if (languageId == 'objective-cpp') {
+            snippet = new vscode.SnippetString("NSLog(@\"${1}\");")
         } else if (languageId == 'perl') {
-            snippet = new vscode.SnippetString("print \"${1}\"")
+            snippet = new vscode.SnippetString("print \"${1}\";")
+        } else if (languageId == 'perl6') {
+            snippet = new vscode.SnippetString("print \"${1}\";")
         } else if (languageId == 'php') {
             snippet = new vscode.SnippetString("echo \"${1}\";")
         } else if (languageId == 'powershell') {
@@ -56,9 +64,13 @@ function activate(context) {
             snippet = new vscode.SnippetString("puts \"${1}\"")
         } else if (languageId == 'rust') {
             snippet = new vscode.SnippetString("println!(\"${1}\");")
+        } else if (languageId == 'shellscript') {
+            snippet = new vscode.SnippetString("echo \"${1}\"")
         } else if (languageId == 'swift') {
             snippet = new vscode.SnippetString("print(\"${1}\")")
         } else if (languageId == 'typescript') {
+            snippet = new vscode.SnippetString("Console.log(\"${1}\");")
+        } else if (languageId == 'typescriptreact') {
             snippet = new vscode.SnippetString("Console.log(\"${1}\");")
         } else if (languageId == 'vbs') {
             snippet = new vscode.SnippetString("Msgbox(\"${1}\",${2},\"${3}\")")

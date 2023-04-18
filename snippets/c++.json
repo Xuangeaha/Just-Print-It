@@ -2,7 +2,7 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-            "(println \"${1}\")"
+            "printf(\"${1}\");"
         ],
         "description": "Print a sentence."
     }
