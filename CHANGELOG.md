@@ -4,6 +4,10 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.1 2023-04-22
+
+Add `galleryBanner` to the vsmarketplace page.
+
 ## 1.1.0 2023-04-18
 
 \>\>\> Add language supports for `C++`, `JavaScript JSX`, `TypeScript JSX`, `Objective-C++`, `Perl 6` and `ShellScript`.
