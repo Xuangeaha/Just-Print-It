@@ -76,6 +76,8 @@ function activate(context) {
             snippet = new vscode.SnippetString("Msgbox(\"${1}\",${2},\"${3}\")")
         } else if (languageId == 'vb') {
             snippet = new vscode.SnippetString("Console.WriteLine(\"${1}\")")
+        } else if (languageId == 'haskell') { // haskell support
+            snippet = new vscode.SnippetString("putStrLn \"${1}\"")
         } else {
             vscode.window.showErrorMessage("Unsupported language: " + languageId)
         }
