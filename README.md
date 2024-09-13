@@ -4,9 +4,9 @@
 
 [![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.just-print-it.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.just-print-it)
 
-Print a sentence easily in your Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript or Clojure files.
+Print a sentence easily in your Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript, Clojure or Haskell files.
 
-在你的Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript或Clojure文件中轻松地输出一个语句。
+在你的Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, Haskell, ShellScript或Clojure文件中轻松地输出一个语句。
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
@@ -40,7 +40,7 @@ Print a sentence easily in your Python, Java, C, C++, PHP, C#, JavaScript, JavaS
 
 # Language Supports 语言支持
 
-**Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript, Clojure**
+**Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript, Clojure, Haskell**
 
 ## Python
 
@@ -153,7 +153,7 @@ print("{}")
 ## Julia
 
 ```julia
-print("{}")
+println("{}")
 ```
 
 ## Dart
@@ -226,6 +226,12 @@ echo ""
 
 ```clojure
 (println "{}")
+```
+
+## Haskell
+
+```haskell
+putStrLn "{}"
 ```
 
 **Enjoy!**
