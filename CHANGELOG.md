@@ -4,6 +4,10 @@ All notable changes to the "divider" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.2 2024-09-13
+
+Add language supports for `Haskell`.
+
 ## 1.1.1 2023-04-22
 
 Add `galleryBanner` to the vsmarketplace page.

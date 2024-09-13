@@ -2,7 +2,7 @@
     "Just Print It": {
         "prefix": "print",
         "body": [
-            "print ${1}"
+            "putStrLn ${1}"
         ],
         "description": "Print a sentence."
     }

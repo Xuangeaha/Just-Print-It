@@ -2,8 +2,8 @@
   "name": "just-print-it",
   "publisher": "XuangeAha",
   "displayName": "Just Print It",
-  "description": "Print a sentence easily in your Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript or Clojure files.",
-  "version": "1.1.1",
+  "description": "Print a sentence easily in your Python, Java, C, C++, PHP, C#, JavaScript, JavaScript JSX, TypeScript, TypeScript JSX, R, Go, Rust, Swift, Ruby, Objective-C, Objective-C++, Lua, Julia, Dart, Groovy, Visual Basic, CoffeeScript, VBScript, F#, Batch, Powershell, Perl, Perl 6, ShellScript, Clojure or Haskell files.",
+  "version": "1.1.2",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
